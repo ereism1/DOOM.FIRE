@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <title>Doom Fire Effect</title>
+    <link rel="icon" href="Super_Mario_Maker_Super_Mario_World_Super_Mario_Bros__3_Bowser__bowser_transparent_background_PNG_clipart-removebg-preview.png" type="image/png">
+    <style>
+      body {
+        background-image: url("e378be4bb4b16ca79b71e88c76fec900.gif");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h1 {
+        font-family: impact;
+        margin: 0;
+        font-size: 35px;
+        border: 1px:
+        width 400px;
+
+      }
+
+      #g1{
+        font-size: 35px;
+        height: 50px;
+        width: 300px;
+        font-family: impact;
+        border-radius: 20px;
+        text-shadow: 0px ;
+        background-color: #c00e02ea;
+      }
+      #g2{
+        font-size: 35px;
+        font-family: impact;
+        text-shadow: 0px;
+        text-decoration: none;
+        
+      }
+      #g1:hover{
+        background-color: black;
+      }
+      #fireCanvas {
+        margin: 10px;
+        border: solid 1px;
+       
+      }
+
+      table {
+        border-collapse: collapse;
+        border: 1px solid #000;
+      }
+
+      td {
+        width: 32px;
+        height: 32px;
+        color: #FFF;
+        border: 1px solid #000;
+        text-align: center;
+        vertical-align: center;
+        font-family: arial;
+        font-size: 10px;
+        position: relative;
+        font-weight: bold;
+        border-radius: 20px;
+      }
+
+      td.pixel {
+        width: 4px;
+        height: 4px;
+        border: 0;
+        border-radius: 20px;
+      }
+
+      .pixel-index {
+        font-size: 7px;
+        display: inline-block;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        color: #927450;
+        border-radius: 20px;
+      }
+
+      a {
+        color: #FFF;
+        font-size: 10px;
+        font-family: arial;
+        border-radius: 20px;
+      }
+
+      .margin {
+        margin: 5px;
+        
+      }
+    </style>
+  </head>
+  <body>
+
+    <center>
+      <h1><button id="g1" target=""><a id="g2" href="" target="">DOOM FIRE</a></button> </h1>
+      <a href="https://github.com/ereism1" target="_blank" ><img height="70px" width="100px" src="IMG_1742-removebg-preview.png"><img height="70px" width="100px" src="Super_Mario_Maker_Super_Mario_World_Super_Mario_Bros__3_Bowser__bowser_transparent_background_PNG_clipart-removebg-preview.png"></a>
+      <div id="fireCanvas">
+        
+      </div>
+      <div class="margin">
+        <button onclick="decreaseFireSource()">-</button>
+        <button onclick="destroyFireSource()">APAGAR FOGO</button>
+        <button onclick="createFireSource()">ATEAR FOGO</button>
+        <button onclick="increaseFireSource()">+</button>
+      </div>
+    </center>
+
+    <script src="fire.js"></script>
+
+  </body>
+</html>
